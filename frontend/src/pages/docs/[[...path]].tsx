@@ -91,7 +91,7 @@ import admonitions from "remark-admonitions";
 import { renderToString } from "src/mdx-helpers/ssr";
 import { readLocaleDocs } from "src/utils/content";
 import Search from "src/components/Search";
-import { concat, filter, flatten, flow, map } from "lodash/fp";
+import { concat, filter, flow, map } from "lodash/fp";
 import { Components } from "@mdx-js/react";
 
 export async function getStaticProps(
